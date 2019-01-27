@@ -19,12 +19,16 @@ $ sudo apt-get install libpq-dev python-dev<br/>
 $ sudo apt-get install postgresql postgresql-contrib<br/>
 
 # Summary of configurations made
-Go to the .ssh file 
-Download the .pem file and move it to the .ssh folder
-Type $ chmod 600 ~/.ssh/udacity.pem in the termenal to securing the key
-Type $ ssh -i ~/.ssh/udacity.pem ubuntu@3.17.74.105 to log into the server as the user ubuntu
-Type $ sudo adduser grader to create new user called grader
-Type $ sudo nano /etc/sudoers.d/grader to give the grader superuser privileges
+Go to the .ssh file <br/>
+Download the .pem file and move it to the .ssh folder<br/>
+Type $ chmod 600 ~/.ssh/udacity.pem in the termenal to securing the key<br/>
+Type $ ssh -i ~/.ssh/udacity.pem ubuntu@3.17.74.105 to log into the server as the user ubuntu<br/>
+Type $ sudo adduser grader to create new user called grader<br/>
+Type $ sudo nano /etc/sudoers.d/grader to give the grader superuser privileges<br/>
+Upgrading the current packages by typeing $ sudo apt-get update<br/>
+$ sudo apt-get upgrade<br/>
+$ sudo apt-get dist-upgrade<br/>
+
 
 
 # Resources
