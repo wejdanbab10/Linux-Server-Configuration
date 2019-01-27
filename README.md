@@ -25,9 +25,13 @@ Type $ chmod 600 ~/.ssh/udacity.pem in the termenal to securing the key<br/>
 Type $ ssh -i ~/.ssh/udacity.pem ubuntu@3.17.74.105 to log into the server as the user ubuntu<br/>
 Type $ sudo adduser grader to create new user called grader<br/>
 Type $ sudo nano /etc/sudoers.d/grader to give the grader superuser privileges<br/>
-Upgrading the current packages by typeing $ sudo apt-get update<br/>
-$ sudo apt-get upgrade<br/>
-$ sudo apt-get dist-upgrade<br/>
+Upgrading the current packages by typeing <br/>
+    $ sudo apt-get update<br/>
+    $ sudo apt-get upgrade<br/>
+    $ sudo apt-get dist-upgrade<br/>
+ Type $ sudo service apache2 restart to restart the server
+ 
+ Type 3.17.74.105.xip.io in your browser to run your web application
 
 
 
