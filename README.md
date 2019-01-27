@@ -13,3 +13,4 @@ ec2-3-17-74-105.us-east-2.compute.amazonaws.com
 # Summary of configurations made
 
 # Resources
+https://github.com/mulligan121/Udacity-Linux-Configuration/blob/master/README.md
