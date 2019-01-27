@@ -19,6 +19,11 @@ $ sudo apt-get install libpq-dev python-dev<br/>
 $ sudo apt-get install postgresql postgresql-contrib<br/>
 
 # Summary of configurations made
+Go to the .ssh file 
+Download the .pem file and move it to the .ssh folder
+Type $ chmod 600 ~/.ssh/udacity.pem in the termenal to securing the key
+Type $ ssh -i ~/.ssh/udacity.pem ubuntu@18.188.169.39 to
+
 
 # Resources
 https://github.com/mulligan121/Udacity-Linux-Configuration/blob/master/README.md
