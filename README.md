@@ -22,7 +22,9 @@ $ sudo apt-get install postgresql postgresql-contrib<br/>
 Go to the .ssh file 
 Download the .pem file and move it to the .ssh folder
 Type $ chmod 600 ~/.ssh/udacity.pem in the termenal to securing the key
-Type $ ssh -i ~/.ssh/udacity.pem ubuntu@18.188.169.39 to
+Type $ ssh -i ~/.ssh/udacity.pem ubuntu@3.17.74.105 to log into the server as the user ubuntu
+Type $ sudo adduser grader to create new user called grader
+Type $ sudo nano /etc/sudoers.d/grader to give the grader superuser privileges
 
 
 # Resources
